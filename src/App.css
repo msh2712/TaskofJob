@@ -81,6 +81,10 @@ background-image: linear-gradient(-225deg, #fffcfc 0%, #D7FFFE 100%);}
   border-radius: 15px;
 }
 
+.imgchange{
+    width : 25%
+}
+
 @media (max-width: 768px) {
   .scroll-to-top-btn {
     width: 45px;
@@ -102,4 +106,8 @@ background-image: linear-gradient(-225deg, #fffcfc 0%, #D7FFFE 100%);}
   .round{
     border-radius: 0px;
   }
+   .imgchange{
+    width : 50%
+}
+ 
 }
