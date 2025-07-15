@@ -1,0 +1,64 @@
+.btn{
+    border: 2px solid rgb(243, 248, 248);
+    background-color: rgb(13, 13, 13);
+    font-size: .9rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn:hover{
+     border: 2px solid rgb(23, 22, 22);
+    background-color: rgb(250, 252, 253);
+    color: black;
+    font-size: .9rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.job{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.height{
+    height: 100vh;
+}
+.inp{
+    padding-left: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.maa{
+background-image: linear-gradient(-225deg, #fffcfc 0%, #D7FFFE 100%);}
+
+.mshtext{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.m {
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 2rem;
+  animation: colorChange 9s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: rgb(5, 244, 192);
+  }
+  33% {
+    color: rgb(209, 245, 5);
+  }
+  66% {
+    color: rgb(1, 18, 203);
+  }
+  100% {
+    color: rgb(63, 238, 10);
+  }
+}
+
+.bgmi{
+  background-image: linear-gradient(-225deg, #050404 0%, #D7FFFE 100%);
+}
