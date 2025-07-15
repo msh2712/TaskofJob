@@ -1,5 +1,6 @@
 import { Link, Outlet } from 'react-router-dom';
 import Btn from './Btn';
+import MoveToScrollUp from './MoveToScrollUp';
 
 function Layout() {
     return (
@@ -17,6 +18,7 @@ function Layout() {
             <main>
                 <Outlet />
             </main>
+            <MoveToScrollUp/>
             <footer className="w-100 bg-black text-white py-5 text-center">
                 <small>&copy; 2025 Job Portal. All rights reserved.</small>
             </footer>
