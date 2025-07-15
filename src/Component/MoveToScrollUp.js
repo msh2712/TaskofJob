@@ -21,19 +21,7 @@ const MoveToScrollUp = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="btn btn-primary position-fixed"
-          style={{
-            bottom: '80px',
-            right: '40px',
-            borderRadius: '50%',
-            width: '50px',
-            height: '50px',
-            fontSize: '25px',
-            zIndex: 1000,
-            border :"2px solid black",
-            backgroundColor:"white",
-            color:"black"
-          }}
+          className="scroll-to-top-btn"
         >
           ↑
         </button>
