@@ -12,11 +12,11 @@ function JobList() {
     const navigate = useNavigate()
     const { job  , loading } = useContext(JobContext);
 
-    const [debouncedInput, setDebouncedInput] = useState(inp);
+    const [debouncemyval, setDebouncemyval] = useState(inp);
 
     useEffect(() => {
         const handler = setTimeout(() => {
-            setDebouncedInput(inp);
+            setDebouncemyval(inp);
         }, 300);
 
         return () => clearTimeout(handler);
@@ -39,15 +39,15 @@ function JobList() {
             filtered = filtered.filter(job => job.location === selectedLocation);
         }
 
-        if (debouncedInput.trim()) {
+        if (debouncemyval.trim()) {
             filtered = filtered.filter(job =>
-                job.title.toLowerCase().includes(debouncedInput.toLowerCase()) ||
-                (job.company && job.company.toLowerCase().includes(debouncedInput.toLowerCase()))
+                job.title.toLowerCase().includes(debouncemyval.toLowerCase()) ||
+                (job.company && job.company.toLowerCase().includes(debouncemyval.toLowerCase()))
             );
         }
 
         setJobs(filtered);
-    }, [debouncedInput, selectedLocation, allJobs]);
+    }, [debouncemyval, selectedLocation, allJobs]);
 
     const handledata = (job) => {
         navigate(`/jobDetails/${job}`);
