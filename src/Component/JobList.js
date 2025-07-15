@@ -106,7 +106,7 @@ function JobList() {
                 />
             </div>
 
-            <div className="row mb-5 ">
+            <div className="row mb-5 mt-2 ">
                 {jobs.length === 0 ? (
                     <div className="w-100 d-flex justify-content-center align-items-center mt-4">
                         <img src='./msh.png' className='w-25 my-2'></img>

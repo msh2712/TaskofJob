@@ -5,7 +5,7 @@ import MoveToScrollUp from './MoveToScrollUp';
 function Layout() {
     return (
         <div>
-            <header className="container rounded-0 rounded-md-4 mt-0 mt-md-4 bgmi text-white py-4 px-4 px-md-5">
+            <header className="container round mt-0 mt-sm-4 bgmi text-white py-4 px-4 px-md-5">
                 <div className="row align-items-center">
                     <div className="col-6">
                         <Link to='/' className='text-decoration-none' ><h1 className="h4 m-0 job m">Jobhere</h1></Link>
